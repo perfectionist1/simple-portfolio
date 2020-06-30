@@ -11,7 +11,7 @@ h2{
 p{
     color: dimgray;
 }
-.name-highligh{
+.orange-highlight{
     color: orangered;
 }
 .half-width{
@@ -47,4 +47,30 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.single-exp{
+    box-shadow: 20px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+.initial-dev{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
